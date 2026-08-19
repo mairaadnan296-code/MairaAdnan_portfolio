@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maira Adnan | Portfolio</title>
+
+    <!-- Google Fonts & FontAwesome Icons -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">&lt;My<span>Portfolio&gt;</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Welcome to my portfolio</span>
+            <h1>Hi, I'm Maira Adnan <span class="highlight">Full Stack Developer</span></h1>
+            <p>I build interactive, responsive, and high-performance web applications and software solutions
+                with modern UI/UX design concepts.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My projects<i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/mairaadnan296-code/my-projects" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i></a>
+                <a href="mailto:mairaadnan876@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Passionate Website Developer Software Developer & Problem Solver</h3>
+                <p>I specialize in building full-stack web applications and software solutions
+                    using contemporary frontend frameworks, robust backend APIs, and database
+                    management systems. I focus on writing clean, maintainable code and building
+                    seamless user experiences.</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <span>Python / Flask</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5 & CSS3</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <span>DBMS & SQL</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-grid">
+
+            <!-- 1. Health & Time Food Recommender -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-utensils"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Smart Food Recommender System</h3>
+                    <p>console based app recommending meals based on health metrics and time of day, featuring a custom interactive frontend UI.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>HTML/CSS</span><span>Health Logic</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects/blob/main/artificial%20intellegence%20food%20recommender%20sys.py" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Task Manager & To-Do List -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-tasks"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager & To-Do Application</h3>
+                    <p>Productivity tool to manage daily tasks, track completion status, and persist task data using JSON file storage.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>JSON Storage</span><span>CLI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects/blob/main/to%20do%20list.py" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Student Management System -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-graduation-cap"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Student Management System</h3>
+                    <p>Console-based CRUD application to record, search, update, and manage student information efficiently.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Console App</span><span>File I/O</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Hangman Game -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-gamepad"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Hangman Word Game</h3>
+                    <p>Classic word guessing console game featuring attempt tracking, masked letter displays, and win/loss logic.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Game Logic</span><span>Strings</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects/blob/main/hangman.py" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Rock Paper Scissors Game -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-hand-rock"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Rock Paper Scissors Game</h3>
+                    <p>Interactive console-based game allowing users to compete against an AI algorithm with score management.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Randomization</span><span>Algorithms</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects/blob/main/rock%20paper%20game.py" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Head and Tails / Sort Library -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-coins"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Head & Tails / Sorting Utilities</h3>
+                    <p>Interactive console-based coin flip game and sorting algorithm implementations for array manipulation.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>CLI</span><span>Algorithms</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/mairaadnan296-code/my-projects/blob/main/head%20and%20tail%20game.py" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact section-padding">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+
+        <div class="contact-wrapper">
+            <!-- Contact Info Cards with Links -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/mairaadnan296-code/my-projects" target="_blank">View GitHub Profile</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:mairaadnan876@gmail.com">mairaadnan876@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                <div id="form-status" class="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> © 2026 Maira Adnan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
