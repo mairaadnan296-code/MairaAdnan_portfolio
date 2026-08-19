@@ -67,19 +67,19 @@ Portfolio-Website/
 
 ### 🏠 Home Page
 
-![home page.png](Screenshot/home%20page.png)
+![home page.png](Screenshot/home.png)
 
 ### 👩‍💻 About Section
 
-![about page.png](Screenshot/about%20page.png) 
+![about page.png](Screenshot/about%20us.png)
 
 ### 💼 Projects Section
 
-![project page.png](Screenshot/project%20page.png) 
+![project page.png](Screenshot/my%20projects.png) 
 
 ### 📞 Contact Section
 
- ![contact page.png](Screenshot/contact%20page.png)
+ ![contact page.png](Screenshot/contacts.png)
 
 ---
 
@@ -108,8 +108,6 @@ Portfolio-Website/
 
 📧 Email: mairaadnan876@gmail.com
 
-🔗 LinkedIn:
-https://www.linkedin.com/in/maira-adnan-1340a9426/
 
 🐙 GitHub:
 https://github.com/mairaadnan7171-star
